@@ -29,6 +29,7 @@ public class ApplicationCalculadoraBasica {
         JOptionPane.showMessageDialog(null, "Não é possível divisão por 0", "ERRO", 0);
     }           
         
+    System.out.print(iN2);
     String resultado = String.valueOf(total);
     JOptionPane.showMessageDialog(null,"Total: " + resultado, "Total", 1);
         
